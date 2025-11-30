@@ -1,10 +1,24 @@
 # Online-Store-Marketing-with-AB-Testing
 AB Testing for users and their revenue
 
-Project Description: There is a database containing various improvement hypotheses proposed by the company that could help generate higher revenue. The hypothesis with the greatest potential impact on the company will be evaluated using the ICE and RICE methodologies, and an A/B test will be conducted to verify whether the changes from the hypothesis had an effect.
+### Project Description
+There is a database containing various improvement hypotheses proposed by the company that could help generate higher revenue. The analysis focuses on: 
+- Finding the hypothesis with the greatest potential impact on the company will be evaluated using the ICE and RICE methodologies.
+- An A/B test will be conducted to verify whether the changes from the hypothesis had an effect.
 
-Tools used: pandas, A/B Test, pyplot, Mann Whitney U Test
+### 🔎Key Findings
+- Using the ICE and RICE frameworks allowed us to select the hypothesis of adding a subscription form on all main pages.
+- Group B had higher cumulative revenue.
+- Group B placed a higher number of orders.
+- Most customers placed only one order.
 
-Challenge: To select the hypothesis with the greatest impact on the company and determine whether the changes were positive for the business and generated higher revenue. The challenge was to choose the appropriate statistical analysis for the test, with the Mann-Whitney U test being selected.
 
-Result: Using the ICE and RICE frameworks allowed us to select the hypothesis of adding a subscription form on all main pages. It was concluded that the implemented changes were successful, as the group that visited the store made more purchases than the group where the changes had not yet been implemented.
+### 📈Results
+- After reviewing the results for both users with anomalies and those without, we can conclude that Group B achieved better conversion outcomes.
+- Group B also showed higher average revenue after implementing the changes based on Hypothesis #7, which involved adding a subscription form to all main pages.
+- The implemented changes were succesful.
+- Group B should be considered the leading variant.
+
+### Tools
+Pandas, A/B Test, pyplot, Mann Whitney U Test
+
